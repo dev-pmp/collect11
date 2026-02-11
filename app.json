@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Collect11",
+    "slug": "collect11",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.collect11.app"
+    },
+    "android": {
+      "package": "com.collect11.app"
+    },
+    "plugins": [
+      "expo-sqlite"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "collect11-placeholder-project-id"
+      }
+    }
+  }
+}
